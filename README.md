@@ -13,7 +13,7 @@ This archive supports three levels of verification.
 2. **Local systems recomputation:** reruns the Datadog native DDSketch benchmark, the real four-process OpenTelemetry OTLP/HTTP experiment, and the 100-seed delay-aware controller study.
 3. **Provider-trace workflows:** reconstruct the primary and multi-resource Bitbrains analyses when the official archives are supplied.
 
-Only executed or directly auditable evidence is distributed. The local OpenTelemetry experiment and the 500-VM GWA-T-12 Rnd validation were executed and their outputs are included. No Kubernetes or OpenStack protocol or result is included; cluster validation is separate future work.
+Only executed or directly auditable evidence is distributed. The local OpenTelemetry experiment and the 500-VM GWA-T-12 Rnd validation were executed and their outputs are included. Cluster-scale Kubernetes/OpenStack validation is outside the scope of this release.
 
 ## Contents
 
