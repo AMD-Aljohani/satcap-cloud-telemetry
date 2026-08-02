@@ -1,0 +1,12 @@
+{
+  "python": "3.13.5 (main, May  5 2026, 21:05:52) [GCC 14.2.0]",
+  "platform": "Linux-6.12.13-x86_64-with-glibc2.41",
+  "processor": "",
+  "numpy": "2.3.5",
+  "windows": 100000,
+  "samples_per_window": 12,
+  "threshold": 0.9,
+  "repetitions": 5,
+  "seed": 20260801,
+  "interpretation": "Python reference microbenchmark; logical state and serialization bytes exclude transport framing and Python-object overhead."
+}

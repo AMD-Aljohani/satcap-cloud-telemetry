@@ -1,0 +1,22 @@
+{
+  "sampling": {
+    "policy": "exact_record",
+    "windows": 774854,
+    "event_hours": 13193,
+    "fixed_snapshot_recall": 0.629197301599333,
+    "mean_recall": 0.4115061017206094,
+    "p95_recall": 0.8843326006215417,
+    "maximum_recall": 1.0,
+    "exact_wall_windows": 38
+  },
+  "persistence": {
+    "policy": "exact_record",
+    "p_event_given_no_event": 0.0032705543402870405,
+    "p_event_given_event": 0.7419994824463038,
+    "risk_ratio": 226.87269656592287,
+    "n00": 747268,
+    "n01": 2452,
+    "n10": 2991,
+    "n11": 8602
+  }
+}

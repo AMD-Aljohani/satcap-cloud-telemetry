@@ -1,0 +1,24 @@
+ONLINE RESOURCE 1 METADATA
+
+Article title:
+SATCAP: Threshold-Preserving Cloud Telemetry for Saturation Detection, Forecasting, and Adaptive Retention
+
+Journal:
+Computing
+
+Authors:
+Abdulaziz M. D. Aljohani; Khaled M. Alhawiti
+
+Affiliation:
+University of Tabuk, Tabuk, Saudi Arabia
+
+Corresponding author:
+Abdulaziz M. D. Aljohani
+a-aljohani@ut.edu.sa
+ORCID 0009-0008-6741-3105
+
+Resource title:
+SATCAP reproducibility archive: analysis code, reported outputs, regression and integrity checks, provenance records, and vector figures
+
+Version:
+6.1

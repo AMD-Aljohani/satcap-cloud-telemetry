@@ -1,0 +1,7 @@
+Calibration analysis (executed 2026-08-01):
+python analysis/run_second_panel_calibration_v61.py --cache-dir /path/to/analysis_cache_v6
+
+Raw-input and reported-output provenance audit (executed 2026-08-01):
+python analysis/build_second_panel_provenance_v61.py --faststorage-zip /path/to/gwa_t_12_fastStorage.zip --rnd-zip /path/to/gwa_t_12_rnd.zip --faststorage-dir /path/to/extracted/fastStorage --rnd-dir /path/to/extracted/rnd --output-dir provenance --results-dir results
+
+The paths above are portable placeholders for the exact local paths recorded by the audit environment. Raw provider archives and derived caches are not redistributed.

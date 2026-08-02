@@ -1,0 +1,3 @@
+provider,source_file,five_minute_samples,hourly_windows,training_threshold_95pct,test_next_window_events
+Google 2019,google2019_instance_usage.csv,8064,672,0.528999460609866,36
+Alibaba 2018,alibaba2018_machine_usage.csv,2243,186,0.5754546775895318,12

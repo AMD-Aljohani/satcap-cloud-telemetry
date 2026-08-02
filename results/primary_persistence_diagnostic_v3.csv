@@ -1,0 +1,4 @@
+policy,n_transitions,events,p_next_given_no_event,p_next_given_event,average_precision,brier,mean_log_score,roc_auc,interpretation
+all_valid,761296,11054,0.0032706285022202127,0.7419994824463038,0.5806298652330333,0.006125476648911134,-0.030342085256687336,0.887096565389906,descriptive all-transition Markov baseline; not a temporal holdout estimate
+exact_record,761313,11054,0.0032705543402870405,0.7419994824463038,0.5806297933125505,0.006125340106834524,-0.03034148087416134,0.8870966105570626,descriptive all-transition Markov baseline; not a temporal holdout estimate
+short_interval_payload,799157,11054,0.0031133977683083535,0.7419994824463038,0.5804772749457888,0.005835757430228354,-0.02905599931684169,0.8871923275963575,descriptive all-transition Markov baseline; not a temporal holdout estimate

@@ -1,0 +1,18 @@
+{
+  "script": "run_second_panel_and_transfer_v6.py",
+  "seed": 20260801,
+  "faststorage_unique_vms": 1250,
+  "rnd_unique_vms": 500,
+  "rnd_csv_files": 1500,
+  "chronological_train_fraction": 0.7,
+  "cpu_memory_threshold": 0.9,
+  "disk_network_threshold": "VM-specific training-only 99th percentile",
+  "bootstrap_replicates": 2000,
+  "model": "StandardScaler + LogisticRegression(C=1.0, lbfgs)",
+  "frozen_transfer_refit_on_rnd": false,
+  "task_threshold_transfer": {
+    "cpu_memory": "absolute 90% threshold shared across panels",
+    "disk_network": "VM-specific 99th percentile estimated without labels from each target VM's pre-test segment"
+  },
+  "claim_boundary": "disk/network are coefficient transfer after unsupervised target-panel threshold estimation, not fully frozen task transfer"
+}

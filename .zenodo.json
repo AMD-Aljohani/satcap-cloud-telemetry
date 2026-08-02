@@ -1,0 +1,28 @@
+{
+  "title": "SATCAP: Reproducibility Package",
+  "description": "Code, result tables, vector figures, provenance records, and regression/integrity checks supporting SATCAP: Threshold-Preserving Cloud Telemetry for Saturation Detection, Forecasting, and Adaptive Retention.",
+  "creators": [
+    {
+      "name": "Aljohani, Abdulaziz M. D.",
+      "affiliation": "University of Tabuk",
+      "orcid": "0009-0008-6741-3105"
+    },
+    {
+      "name": "Alhawiti, Khaled M.",
+      "affiliation": "University of Tabuk"
+    }
+  ],
+  "license": "mit-license",
+  "upload_type": "software",
+  "keywords": [
+    "cloud monitoring",
+    "telemetry aggregation",
+    "saturation forecasting",
+    "adaptive retention",
+    "OpenTelemetry",
+    "reproducibility"
+  ],
+  "version": "1.0.0",
+  "publication_date": "2026-08-02",
+  "access_right": "open"
+}

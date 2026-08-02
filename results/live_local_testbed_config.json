@@ -1,0 +1,14 @@
+{
+  "epochs": 80,
+  "training_epochs": 30,
+  "subslots_per_epoch": 12,
+  "slot_seconds": 0.001,
+  "service_seconds": 0.0015,
+  "low_workers": 2,
+  "high_workers": 5,
+  "sla_seconds": 0.012,
+  "seeds": [
+    20260727,
+    20260728
+  ]
+}

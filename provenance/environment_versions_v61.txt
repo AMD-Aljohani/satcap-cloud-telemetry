@@ -1,0 +1,8 @@
+v6.1 calibration/provenance audit environment
+Python 3.12.10
+NumPy 2.4.6
+pandas 3.0.3
+SciPy 1.17.1
+Matplotlib 3.10.9
+
+The complete submission dependency specification is distributed in ../requirements.txt. This record identifies the versions used for the captured v6.1 calibration and provenance audits; it is not represented as a package-manager lockfile.

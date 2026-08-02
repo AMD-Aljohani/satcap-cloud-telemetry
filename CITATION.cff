@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use this software or the accompanying results, please cite this repository release and the SATCAP article."
+title: "SATCAP: Reproducibility Package"
+version: "1.0.0"
+date-released: "2026-08-02"
+type: software
+authors:
+  - family-names: "Aljohani"
+    given-names: "Abdulaziz M. D."
+    orcid: "https://orcid.org/0009-0008-6741-3105"
+    affiliation: "University of Tabuk"
+  - family-names: "Alhawiti"
+    given-names: "Khaled M."
+    affiliation: "University of Tabuk"
+repository-code: "https://github.com/AMD-Aljohani/satcap-cloud-telemetry"
+license: MIT
+keywords:
+  - cloud monitoring
+  - telemetry aggregation
+  - saturation forecasting
+  - adaptive retention
+  - OpenTelemetry
+  - reproducibility

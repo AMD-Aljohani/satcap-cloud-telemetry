@@ -1,0 +1,4 @@
+policy,windows,event_hours,fixed_snapshot_recall,mean_recall,p95_recall,maximum_recall,exact_wall_windows,policy_label
+all_valid,774759,13193,0.629197301599333,0.4115061017206094,0.8843326006215417,1.0,38.0,all valid
+exact_record,774854,13193,0.629197301599333,0.4115061017206094,0.8843326006215417,1.0,38.0,exact duplicate only
+short_interval_payload,812763,13193,0.629197301599333,0.4115061017206094,0.8843326006215417,1.0,,short-interval repeated payload

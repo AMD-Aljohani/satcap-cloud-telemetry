@@ -1,0 +1,48 @@
+{
+  "provenance_version": "6.1",
+  "article": "SATCAP: Threshold-Preserving Cloud Telemetry for Saturation Detection, Forecasting, and Adaptive Retention",
+  "audit_started_utc": "2026-08-01T17:25:42.772968+00:00",
+  "audit_finished_utc": "2026-08-01T17:25:50.253969+00:00",
+  "environment": {
+    "python": "3.12.13 (main, Mar  3 2026, 15:01:35) [MSC v.1944 64 bit (AMD64)]",
+    "platform": "Windows-10-10.0.19045-SP0"
+  },
+  "raw_inputs": [
+    {
+      "panel": "GWA-T-12-fastStorage",
+      "archive": "gwa_t_12_fastStorage.zip",
+      "bytes": 134047207,
+      "sha256": "11313f528a0cbcbe57e63162f8ae5a41a9c7e7c1a79872e294ff3c5bbaa2e671",
+      "verified": true
+    },
+    {
+      "panel": "GWA-T-12-Rnd",
+      "archive": "gwa_t_12_rnd.zip",
+      "bytes": 163099172,
+      "sha256": "d3d9ddebb689c0b5463f2e4cfd8956e84bdcdf138b4476320855393e2b229a06",
+      "verified": true
+    }
+  ],
+  "raw_csv_inventory": {
+    "fastStorage_csv_files": 1250,
+    "Rnd_csv_files": 1500,
+    "Rnd_unique_vm_identifiers": 500,
+    "inventory_file": "raw_file_inventory.csv"
+  },
+  "analysis_protocol": {
+    "chronological_train_fraction": 0.7,
+    "cpu_memory_threshold": "absolute 90% shared across panels",
+    "disk_network_threshold": "VM-specific 99th percentile estimated without outcome labels from each panel's pre-test segment",
+    "coefficient_transfer": "feature scaling and logistic coefficients fitted on fastStorage; no classifier or calibration fit on Rnd",
+    "claim_boundary": "disk/network do not constitute fully frozen task transfer because their target thresholds use unlabeled Rnd pre-test measurements"
+  },
+  "execution_scope": "v6.1 raw-input and reported-output provenance audit; calibration analysis rerun is captured separately in second_panel_stdout.log",
+  "reported_outputs": [
+    "second_panel_event_fidelity_v6.csv",
+    "second_panel_and_frozen_transfer_metrics_v6.csv",
+    "second_panel_cluster_bootstrap_v6.csv",
+    "second_panel_calibration_comparison_v61.csv",
+    "second_panel_reliability_bins_v61.csv",
+    "second_panel_protocol_v6.json"
+  ]
+}

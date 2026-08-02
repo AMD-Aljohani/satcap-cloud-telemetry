@@ -1,0 +1,12 @@
+{
+  "sdk": "OpenTelemetry Python SDK 1.42.1",
+  "transport": "OTLP/HTTP protobuf",
+  "workers": 4,
+  "trials": 3,
+  "sample_seconds": 0.25,
+  "window_samples": 20,
+  "windows_per_worker": 4,
+  "cpu_threshold": 0.75,
+  "memory_threshold": 0.65,
+  "environment": "local independent OS processes; no Kubernetes runtime"
+}

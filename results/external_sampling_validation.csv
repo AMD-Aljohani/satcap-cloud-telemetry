@@ -1,0 +1,11 @@
+provider,threshold_definition,threshold,scheme,budget_scalars,event_windows,recall
+Google 2019,95th percentile of training five-minute values,0.528999460609866,one fixed snapshot,1,115,0.3652173913043478
+Google 2019,95th percentile of training five-minute values,0.528999460609866,hourly mean,1,115,0.3130434782608696
+Google 2019,95th percentile of training five-minute values,0.528999460609866,hourly 95th percentile,1,115,0.8
+Google 2019,95th percentile of training five-minute values,0.528999460609866,hourly maximum,1,115,1.0
+Google 2019,95th percentile of training five-minute values,0.528999460609866,maximum plus count,2,115,1.0
+Alibaba 2018,95th percentile of training five-minute values,0.5754546775895318,one fixed snapshot,1,39,0.41025641025641024
+Alibaba 2018,95th percentile of training five-minute values,0.5754546775895318,hourly mean,1,39,0.1794871794871795
+Alibaba 2018,95th percentile of training five-minute values,0.5754546775895318,hourly 95th percentile,1,39,0.6666666666666666
+Alibaba 2018,95th percentile of training five-minute values,0.5754546775895318,hourly maximum,1,39,1.0
+Alibaba 2018,95th percentile of training five-minute values,0.5754546775895318,maximum plus count,2,39,1.0

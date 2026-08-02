@@ -1,0 +1,8 @@
+method,samples_per_window,median_collector_state_bytes,p95_collector_state_bytes,median_binary_payload_bytes,p95_binary_payload_bytes,median_compact_json_bytes,p95_compact_json_bytes,mergeable,binary_reduction_vs_raw,json_reduction_vs_raw
+snapshot,12,8.0,8.0,20.0,20.0,36.0,36.0,False,0.8148148148148149,0.7352941176470589
+mean,12,16.0,16.0,20.0,20.0,36.0,36.0,True,0.8148148148148149,0.7352941176470589
+exact_p95,12,96.0,96.0,20.0,20.0,36.0,36.0,True,0.8148148148148149,0.7352941176470589
+maximum,12,8.0,8.0,20.0,20.0,36.0,36.0,True,0.8148148148148149,0.7352941176470589
+maximum_plus_count,12,12.0,12.0,24.0,24.0,42.0,42.0,True,0.7777777777777778,0.6911764705882353
+log_sketch,12,74.0,74.0,86.0,86.0,126.0,131.0,True,0.20370370370370372,0.07352941176470584
+raw_12_samples,12,96.0,96.0,108.0,108.0,136.0,137.0,True,0.0,0.0
