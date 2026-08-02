@@ -1,6 +1,6 @@
 # SATCAP reproducibility release v1.0.0
 
-This release corresponds to the SATCAP v6.1 submission package.
+This release corresponds to the SATCAP submission package.
 
 ## Included
 
