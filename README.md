@@ -1,4 +1,4 @@
-# SATCAP v6.1 reproducibility package
+# SATCAP reproducibility package
 
 **Article:** *SATCAP: Threshold-Preserving Cloud Telemetry for Saturation Detection, Forecasting, and Adaptive Retention*  
 **Intended journal:** *Computing*  
